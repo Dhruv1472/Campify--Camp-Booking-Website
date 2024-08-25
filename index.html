@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Campify</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-white navbar-light px-5 fixed-top" data-aos="fade-down">
+        <div class="container">
+            <div class="d-flex align-items-center">
+                <!-- Logo -->
+                <img src="icon.png"
+                    class="logo" alt="Logo" title="FlyNow" style="max-height: 75px;">
+
+                <!-- Brand Name -->
+                <a class="navbar-brand" style="font-weight: bold; font-size: 30px; margin-left: 10px;"
+                    href="#">Campify</a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto" style="margin-right: 10px;">
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="destination.html">Destinations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="offers.html">Offers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Book Now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container p-1 title-margin" data-aos="zoom-out">
+        <div class="row p-3">
+            <div class="col-12 p-3 text-center">
+                <h1 class="mt-5" id="header-content" style="font-size: 4rem;">Find And Book<br>A Great Experience</h1>
+            </div>
+            <img class="img-fluid"
+                src="backaboutus.png"
+                style="height: 400px; border-radius: 30px;" alt="">
+        </div>
+    </div>
+
+    <div class="container "
+        style="background-color: f1f5f9; border-radius: 15px; border: 1px solid #64748b; padding-top: 55px;">
+        <div class="d-flex justify-content-center align-items-center mb-3">
+            <button type="button" class=" custom-btn active">Mountain</button>
+            <button type="button" class=" custom-btn ">Beaches</button>
+            <button type="button" class=" custom-btn">Forest</button>
+        </div>
+        <div class="d-flex justify-content-center align-items-center mb-3">
+            <div class="row">
+                <div class="col-auto">
+                    <form action="">
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-floating mb-3 mt-3 custom-style">
+                                    <input type="text" class="form-control" id="email" placeholder="Enter location"
+                                        name="location">
+                                    <label for="location">Location</label>
+                                </div>
+                                <hr class="custom-style">
+                                <p class="custom-style">Place Where are you going?</p>
+                            </div>
+                            <div class="col">
+                                <div class="form-floating mb-3 mt-3 custom-style">
+                                    <input type="number" class="form-control" id="travellers"
+                                        placeholder="Enter travellers" name="travellers">
+                                    <label for="travellers">Travellers</label>
+                                </div>
+                                <hr class="custom-style">
+                                <p class="custom-style">Add guests</p>
+                            </div>
+                            <div class="col" >
+                                <div class="form-floating mb-3 mt-3 custom-style">
+                                    <div class="input-group" style="padding: 10px;">
+                                        <input type="date" class="form-control" id="departure" name="departure"
+                                            placeholder="Enter departure">
+                                    </div>
+                                </div>
+                                <hr class="custom-style">
+                                <p class="custom-style">From</p>
+                            </div>
+                            <div class="col">
+                                <div class="form-floating mb-3 mt-3 custom-style">
+                                    <div class="input-group" style="padding: 10px;">
+                                        <input type="date" class="form-control" id="return" name="departure"
+                                            placeholder="Enter Return">
+                                    </div>
+                                </div>
+                                <hr class="custom-style">
+                                <p class="custom-style">To</p>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button type="submit" class="submit-btn">Search Camps</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" style="background-color: #f1f5f9; border-radius: 20px;" data-aos="zoom-out">
+        <div class="container travel-container mt-5">
+            <p class="h3 d-flex justify-content-center" style="font-size: 50px;font-weight: 800;">CAMP SUPPORT</p>
+            <p class="h1 d-flex justify-content-center" style="font-size: 25px;font-weight: 500;">Wherever you camp in the world,
+                 the campfire will be one of the things that sticks in your memory the most!</p>
+            
+        </div>
+        <section>
+            <div class="container travel-container">
+                <div class="row">
+                    <div class="col-xl-7 d-flex align-items-center">
+                        <div class="container">
+                            <div class="text-box-content">
+                                <div class="text-content">
+                                    <span class="number">01</span>
+                                    <h4>24/7 Food,Medical Support</h4>
+                                    <p>
+                                        Food support,medical support and many other supports are avilable anytime
+                                    </p>
+                                </div>
+                                <div class="text-content">
+                                    <span class="number second">02</span>
+                                    <h4>Necessary Items </h4>
+                                    <p>
+                                        Sleeping bag,Camping Chairs,Pillow,Stove,Hat,Headlamps,Sock,Toilet Paper,
+                                        Camping Table,Cutlery,Duct Tape,Matches Or Lighter,Shorts,Tent,First Aid Kit,Sunscreen
+                                    </p>
+                                </div>
+                                <div class="text-content">
+                                    <span class="number third">03</span>
+                                    <h4>Camp insurance</h4>
+                                    <p>
+                                        Comprehensive protection for your peace of mind, covering a range
+                                        of potential travel risks and unexpected situations.
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-5 d-flex justify-content-center align-items-center">
+                        <div class="plan_image">
+                            <img class="img-fluid" src="tent1.jpg" alt="plan" />
+                            <img class="img-fluid" src="tent2.jpg" alt="plan" />
+                            <img class="img-fluid" src="tent3.jpg" alt="plan" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col">
+                <div class="box-info">
+                    <p class="h2 text-center" style="font-weight: 600;
+                    font-size: 2rem;">A Bad Day At Camping Is Still Better Than A Good Day Working</p>
+                </div>
+            </div>
+            <div class="col d-flex justify-content-end">
+                <div class="box-info mt-3">
+                    <button class="card-custom-btn">View All</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-5 ">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="box-card">
+                            <span><i class="bi bi-calendar2-event"></i></span>
+                            <h4>Book & Relax</h4>
+                            <p>
+                                With "Book and Relax," you can sit back, unwind, and enjoy the nature while we take
+                                care of everything else.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="box-card">
+                            <span><i class="bi bi-clipboard-check"></i></span>
+                            <h4>Smart Checklist</h4>
+                            <p>
+                                Introducing smart checklist with us, the innovative solution revolutionizing the way you
+                                camp with our campsites.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="box-card">
+                            <span><i class="bi bi-bookmark"></i></span>
+                            <h4>Save More</h4>
+                            <p>
+                                From discounted prices to exclusive promotions and deals, we prioritize
+                                affordability without compromising on quality.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section id="best-travelers" class="p-5 m-5 " style="background-color: #f1f5f9; border-radius: 20px;"
+        data-aos="flip-left">
+        <div class="container">
+            <h1 class="text-center text-dark">Best visitors of the Month</h1>
+            <p class="lead text-center text-dark mb-5">
+                Our visitors have explored the world and shared their incredible experiences with us.
+            </p>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3 h-100">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/men/11.jpg" class="rounded-circle mb-3"
+                                alt="" />
+                            <h3 class="card-title mb-3">sahil sharma</h3>
+                            <p class="card-text">
+                                sahil has trekked through the Amazon rainforest, explored ancient ruins in Machu
+                                Picchu,
+                                and camped under the stars in the Sahara Desert.
+                            </p>
+                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light h-100">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/women/11.jpg" class="rounded-circle mb-3"
+                                alt="" />
+                            <h3 class="card-title mb-3">Jenny roy</h3>
+                            <p class="card-text">
+                                Jenny has sailed across the Mediterranean, hiked the Inca Trail to Machu Picchu, and
+                                dived into the Great Barrier Reef.
+                            </p>
+                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light h-100">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/men/12.jpg" class="rounded-circle mb-3"
+                                alt="" />
+                            <h3 class="card-title mb-3">Smith shah</h3>
+                            <p class="card-text">
+                                smith has backpacked through Southeast Asia, road-tripped along the coast of
+                                Australia,
+                                and explored the temples of Angkor Wat.
+                            </p>
+                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light h-100">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/women/12.jpg" class="rounded-circle mb-3"
+                                alt="" />
+                            <h3 class="card-title mb-3">Sara patel</h3>
+                            <p class="card-text ">
+                                Sara has explored the ancient temples of Kyoto, surfed the waves of Hawaii, and
+                                backpacked through Europe.
+                            </p>
+                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer " data-aos="fade-in-up">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-4 " style="padding-right: 40px;">
+                    <div class="footer-text">
+                        <h3>Campify</h3>
+                        <p>
+                            Where Excellence Camp With a strong commitment to customer
+                            satisfaction and a passion for nature,Campify offers
+                            exceptional service and seamless camping.
+                        </p>
+                        <p>
+                            From friendly smiles to state-of-the-art camp, we connect the
+                            world, ensuring safe, comfortable, and unforgettable experiences.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="footer-column">
+                        <h4>Information</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Offers</a></li>
+                            <li><a href="#">Destinations</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="footer-column">
+                        <h4>Contact</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">Media</a></li>
+                            <li><a href="#">Socials</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="subscribe-form footer-item foot"
+                        style="background-color: rgb(184, 123, 61); color: #fff; padding: 20px; border-radius: 5px;">
+                        <h2 style="margin-bottom: 20px;">Subscribe for Newsletter!</h2>
+                        <form class="flex ">
+                            <input type="email" placeholder="Enter Email" class="form-control"
+                                style="margin-bottom: 10px;">
+                            <input type="submit" class="btn subscribe-btn" value="Subscribe"
+                                style="text-align: center; background-color: #fff; color: black; border: none; padding: 10px 20px; cursor: pointer;">
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+    <!--Start End footer-end -->
+    <footer class="footer-end" data-aos="fade-in-up">
+        <div class="container">
+            <div class="footer-foot">
+                <p>Copyright &copy; 2024 FlyNow. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer-end -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 400, delay: 250, duration: 1000,
+        });
+    </script>
+</body>
+
+</html>

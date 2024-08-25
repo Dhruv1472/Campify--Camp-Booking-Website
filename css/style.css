@@ -1,0 +1,373 @@
+:root {
+  --main-color: rgb(184, 123, 61);
+  --white-color: #FFFFFF;
+  --border-color: #ccc;
+  --light-gray: #64748b;
+  --text-extra-white: #f1f5f9;
+}
+
+
+.navbar-nav .nav-link {
+  /* color: white !important; */
+  font-weight: 500;
+  font-size: 25px;
+  margin-left: 15px;
+  /* Adjust as needed */
+}
+
+.navbar .navbar-brand {
+  font-weight: 600;
+
+}
+
+.navbar-toggler {
+  border-color: white;
+}
+
+.navbar-brand {
+  font-weight: 600;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+
+
+#header-content {
+  text-align: center;
+  font-size: 3rem;
+}
+
+header img {
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+
+.custom-btn {
+  font-weight: 600;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  background-color: var(--text-extra-white);
+  color: black;
+}
+
+.custom-btn.active {
+  background-color: var(--main-color);
+  color: white;
+}
+
+
+/* Custom styling */
+.custom-style .form-control {
+  font-weight: 600;
+  border-radius: 5px;
+  border-color: none;
+  /* Gray border color */
+}
+
+/* Adjust form label styles */
+.custom-style label {
+  font-weight: 600;
+  color: black;
+  /* Gray label color */
+}
+
+/* Adjust hr styles */
+.custom-style hr {
+  font-weight: 600;
+  border-color: black;
+  /* Gray hr color */
+}
+
+/* Adjust paragraph styles */
+.custom-style p {
+  font-weight: 600;
+  color: black;
+  /* Gray paragraph color */
+  font-size: 16px;
+}
+
+.plan_image {
+  position: relative;
+
+}
+
+.plan_image img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 10rem;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.plan_image img:nth-child(1) {
+  max-width: 240px;
+  transform: translate(calc(-50% - 9rem), calc(-50% + 5rem));
+  z-index: 3;
+}
+
+.plan_image img:nth-child(2) {
+  max-width: 250px;
+  transform: translate(-50%, calc(-50% - 5rem));
+  z-index: 2;
+}
+
+.plan_image img:nth-child(3) {
+  max-width: 220px;
+  transform: translate(calc(-50% + 9rem), calc(-50% + 5rem));
+  z-index: 1;
+}
+
+.plan_image {
+  display: none;
+}
+
+
+@media (min-width: 1200px) {
+  .plan_image {
+    display: block;
+  }
+
+  .col-md-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
+.travel-container {
+  margin-top: 15px;
+  padding: 20px;
+}
+
+/*  text-box styling*/
+text-box-content {
+  margin-bottom: 20px;
+
+}
+
+.text-content {
+  padding: 20px;
+  border: 1px solid var(--border-color);
+  border-radius: 15px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.number {
+  display: inline-block;
+  /* Make the number span inline-block */
+  width: 40px;
+  /* Set a fixed width for the number */
+  height: 40px;
+  /* Set a fixed height for the number */
+  line-height: 40px;
+  /* Vertically center the number */
+  text-align: center;
+  /* Center the number horizontally */
+  background-color: var(--main-color);
+  /* Add background color to the number */
+  color: #fff;
+  /* Set text color to white */
+  font-size: 20px;
+  /* Adjust font size */
+  border-radius: 50%;
+  /* Make the number circular */
+  margin-bottom: 10px;
+  /* Add some bottom margin to separate it from the heading */
+}
+
+.text-content h4 {
+  color: black;
+  /* Set color for the heading */
+}
+
+.text-content p {
+  color: #666;
+  /* Set color for the paragraph */
+}
+
+/* footer styling */
+.footer {
+  background-color: var(--main-color);
+  padding: 50px 0;
+}
+
+.footer-text h3 {
+  color: var(--white-color);
+}
+
+.footer-text p {
+  color: var(--white-color);
+
+}
+
+.footer-column h4 {
+  color: var(--white-color);
+  margin-bottom: 20px;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  color: var(--white-color);
+  text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+  color: black;
+}
+
+/* Footer End */
+.footer-end {
+  background-color: var(--main-color);
+  color: var(--white-color);
+  padding: 20px 0;
+  text-align: center;
+}
+
+
+
+
+.box-info button.btn:hover {
+  background-color: #0056b3;
+  /* Change background color on hover */
+}
+
+.box-info button.btn {
+  padding: 10px 20px;
+  /* Add padding to the button */
+  border: none;
+  /* Remove the button border */
+  border-radius: 5px;
+  /* Add border radius to the button */
+  background-color: #007bff;
+  /* Button background color */
+  color: #fff;
+  /* Button text color */
+  font-size: 16px;
+  /* Button font size */
+  font-weight: bold;
+  /* Button font weight */
+  cursor: pointer;
+  /* Cursor style */
+  transition: background-color 0.3s, color 0.3s;
+  /* Smooth transition on hover */
+}
+
+.card-custom-btn {
+  font-weight: 600;
+  padding: 10px 50px;
+  border: 1px solid var(--light-gray);
+  border-radius: 25px;
+  font-size: 16px;
+  background-color: var(--text-extra-white);
+  color: black;
+}
+
+.card-custom-button:hover {
+  background-color: var(--main-color);
+  /* Hover background color */
+  color: var(--white-color);
+  /* Hover text color */
+}
+
+
+/* .memories .box .card .box-card {
+  text-align: center;
+  background-color: var(--white);
+  padding: 3rem 2rem;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 5rem;
+}
+
+.memories .box .card .box-card span {
+  display: inline-block;
+  background-color: var(--main-color);
+  padding: 20px 30px;
+  margin-bottom: 2rem;
+  color: white;
+  font-size: 1.8rem;
+  border-radius: 4rem;
+} */
+
+.box-card {
+  text-align: center;
+  /* Center-align the content */
+  background-color: #ffffff;
+  /* Set background color */
+  padding: 2rem;
+  /* Add padding */
+  border-radius: 50px;
+  /* Add border radius */
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+  /* Add box shadow */
+}
+
+.box-card span i {
+  font-size: 3rem;
+  /* Adjust icon size */
+  color: #007bff;
+  /* Set icon color */
+}
+
+.box-card h4 {
+  font-weight: bold;
+  /* Make title bold */
+  margin-top: 1rem;
+  /* Add margin top */
+}
+
+.box-card p {
+  color: #6c757d;
+  border-radius: 50px;
+  /* Set text color */
+}
+
+.card {
+  border: none;
+  /* Remove default card border */
+}
+
+.subscribe-btn {
+  padding: 0.7rem 2.4rem;
+  border-radius: 0.2rem;
+  font-weight: 600;
+  background-color: var(#fff);
+  color: var(--main-color);
+  border: 1px solid var(--border-color);
+}
+
+.lounge-details h4 {
+  font-size: 25px;
+}
+
+.lounge-details p {
+  font-size: 15px;
+}
+
+.submit-btn {
+  background-color: var(--main-color);
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 25px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #007bff;
+}
+

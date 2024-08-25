@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Book Now</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="booknow.css">
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-white navbar-light px-5" data-aos="fade-down">
+        <div class="container">
+            <div class="d-flex align-items-center">
+                <!-- Logo -->
+                <img src="icon.png"
+                    class="logo" alt="Logo" title="FlyNow" style="max-height: 75px;">
+
+                <!-- Brand Name -->
+                <a class="navbar-brand" style="font-weight: bold; font-size: 30px; margin-left: 10px;"
+                    href="#">Campify</a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto" style="margin-right: 10px;">
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="flights.html">Destinations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="offers.html">Offers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Book Now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main" style="border: 2px solid black;width: 40%;background-color: rgb(184, 123, 61);border-radius: 5px;margin: auto;padding:6%;">
+        <h2>Kindly,Fill This Details..</h2>
+  
+        Name:
+        <br />
+        <input type="text" id="name" class="input" style="border-radius: 5px;width: 80%;"/>
+        <br />
+        <br />
+        Mobile No:
+        <br />
+  
+        <input type="number" class="input" id="mono" style="border-radius: 5px;width: 80%;"/>
+        <br />
+        <br />
+  
+        Email id:
+        <br />
+        <input type="email" id="email" class="input" style="border-radius: 5px;width: 80%;"/>
+        <br />
+        <br />
+  
+        Adults:
+        <br />
+        <input type="number" class="input" id="adults" style="border-radius: 5px;width: 80%;"/>
+  
+        <br />
+        <br />
+        Childs:
+        <br />
+        <input type="number" class="input" id="Childs" style="border-radius: 5px;width: 80%;"/>
+        <br />
+        <br />
+  
+        Date:
+        <br />
+  
+        <input type="date" class="input" id="date" style="border-radius: 5px;width: 80%;"/>
+  
+        <br />
+        <br />
+        <br />
+  
+        <a href="booknow.html"
+          ><input type="button" class="subcan" value="Cancel" style="border-radius: 5px;width: 40%;"
+        /></a>
+  
+        <button onclick="fun()" class="subcan"  style="border-radius: 5px;width: 40%;"
+        /></a>Submit</button>
+     </div>
+  
+    <div class="last" style="border: 2px solid black;width: 40%;background-color: rgb(184, 123, 61);border-radius: 5px;margin: auto;visibility: hidden;padding: 6%;">
+        <h2>Kindly,Check Your Details..</h2>
+        Name:
+        <br />
+        <h4 id="one"></h4>
+        <br />
+  
+        Mobile No:
+        <br />
+        <h4 id="two"></h4>
+        <br />
+        Email id:
+        <br />
+        <h4 id="three"></h4>
+        <br />
+        Adults:
+        <br />
+        <h4 id="four"></h4>
+        <br />
+        Childs:
+        <br />
+        <h4 id="five"></h4>
+        <br />
+  
+        Date:
+        <br />
+        <h4 id="six"></h4>
+        <br />
+  
+        <a href="booknow.html"
+          ><input type="button" class="subcan" value="Re-Enter Details"
+        /></a>
+        <a href="#"
+          ><input type="button" class="subcan" value="Confirm"
+        /></a>
+      </div>
+      
+  
+    <footer class="footer " data-aos="fade-in-up">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-4 " style="padding-right: 40px;">
+                    <div class="footer-text">
+                        <h3>Campify</h3>
+                        <p>
+                            Where Excellence Camp With a strong commitment to customer
+                            satisfaction and a passion for nature,Campify offers
+                            exceptional service and seamless camping.
+                        </p>
+                        <p>
+                            From friendly smiles to state-of-the-art camp, we connect the
+                            world, ensuring safe, comfortable, and unforgettable experiences.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="footer-column">
+                        <h4>Information</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Offers</a></li>
+                            <!-- <li><a href="#">Seats</a></li> -->
+                            <li><a href="#">Destinations</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="footer-column">
+                        <h4>Contact</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">Media</a></li>
+                            <li><a href="#">Socials</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="subscribe-form footer-item foot"
+                        style="background-color: rgb(184, 123, 61); color: #fff; padding: 20px; border-radius: 5px;">
+                        <h2 style="margin-bottom: 20px;">Subscribe for Newsletter!</h2>
+                        <form class="flex ">
+                            <input type="email" placeholder="Enter Email" class="form-control"
+                                style="margin-bottom: 10px;">
+                            <input type="submit" class="btn subscribe-btn" value="Subscribe"
+                                style="text-align: center; background-color: #fff; color: black; border: none; padding: 10px 20px; cursor: pointer;">
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+    <!--Start End footer-end -->
+    <footer class="footer-end" data-aos="fade-in-up">
+        <div class="container">
+            <div class="footer-foot">
+                <p>Copyright &copy; 2024 FlyNow. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer-end -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 400, delay: 250, duration: 1000,
+        });
+    </script>
+<script src="booknow.js"></script>
+</body>
+
+</html>

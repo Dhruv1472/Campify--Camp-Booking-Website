@@ -1,0 +1,92 @@
+.book-now-btn {
+    background-color: var(--main-color);
+    color: #fff;
+    border: none;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 10px 25px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    align-content: center;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 390px;
+    /* Set maximum width here */
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.card-details {
+    padding: 20px;
+}
+
+.price {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.book-now-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.book-now-btn:hover {
+    background-color: #0056b3;
+}
+
+.available-flights {
+    margin-top: 10px;
+}
+
+.flight-details {
+    margin-bottom: 10px;
+}
+
+.flight-details span {
+    margin-right: 10px;
+}
+
+.bottom-left-img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: auto;
+}
+
+/* Increase font size for accordion body */
+.accordion-body {
+    font-size: 16px;
+    /* Adjust the font size as needed */
+}
+
+
+
+#about {
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0;
+    /* Adjust padding as needed */
+    text-align: center;
+    height: 100%;
+    /* Set the height of the cover image */
+    width: 100%;
+    /* Set the width of the cover image */
+}

@@ -1,0 +1,105 @@
+:root {
+    --main-color: rgb(184, 123, 61);
+    --white-color: #FFFFFF;
+    --border-color: #ccc;
+    --light-gray: #64748b;
+    --text-extra-white: #f1f5f9;
+}
+
+/* Style for the about section */
+#about {
+    border-radius: 40px;
+    background-color: var(--text--white);
+    padding: 50px 0;
+}
+
+.title-wrap {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sm-title {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #555;
+}
+
+.lg-title {
+    text-transform: uppercase;
+    font-size: 36px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.about-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-left {
+    flex: 1;
+    text-align: center;
+}
+
+.about-left img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.about-right {
+    flex: 1;
+    padding: 0 20px;
+    text-align: center;
+
+}
+
+.about-right h2 {
+    font-size: 34px;
+}
+
+.about-right p2 {
+    font-size: 16px;
+}
+
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 24px;
+}
+
+.text {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}
+
+#about {
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+
+    /* Text color on the header */
+    padding: 100px 0;
+    /* Adjust padding as needed */
+    text-align: center;
+}
+
+.header-content {
+    color: black;
+    font-weight: 600;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.header-content h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.header-content p {
+    font-size: 24px;
+}
